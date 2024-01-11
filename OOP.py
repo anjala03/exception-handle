@@ -9,10 +9,8 @@ class Student:
     def my_func(self):
         print("this is just to demonstrate that method can be formed inside class")
 
-
 s1= Student("ram", 32, 5.1, 2002)
 s2= Student("hari", 12, 5.0, 2000)
-
 print (s1)
 print (s2)
 s1.my_func()
